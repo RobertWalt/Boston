@@ -1,25 +1,25 @@
 # Import packages
 import io
-from flask import Flask, request, render_template, redirect, Response, url_for
+from flask import Flask, request, render_template, Response
 from model import BostonPrediction
 from wtforms import Form, SelectField, FloatField, validators
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 
+# Create flask webapp.
+app = Flask(__name__)
+app.config.from_mapping(
+    SECRET_KEY='8360',
+)
+# Loads model.
+model = BostonPrediction()
+model.load_model()
 
+# Wtform
 class predict(Form):
     lot_area = FloatField('lot_area_f', validators=[validators.InputRequired()])
     bldg_type = SelectField('bldg_type', choices=[('1Fam','One family house'), ('2fmCon','Two family Condor'),
                                                  ('Duplex','Duplex building'),
                                                  ('TwnhsE','Townhouse')], validators = [validators.InputRequired()])
-
-# Create flask webapp.
-app = Flask(__name__)
-app.config.from_mapping(
-    SECRET_KEY='1234',
-)
-# Loads model.
-model = BostonPrediction()
-model.load_model()
 
 @app.route('/', methods=['POST', 'GET'])
 def main():
