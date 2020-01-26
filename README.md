@@ -5,8 +5,8 @@
 * Creation of Partial Dependence Plot on Feature LotArea
 
 ## Deployment
-* Containerized mit Docker
-* Deployed on AWS Elastic Beanstalk: [AWS Elastic Beanstalk](boston-api.us-east-2.elasticbeanstalk.com)
+* Containerized with Docker
+* Deployed on [AWS Elastic Beanstalk](boston-api.us-east-2.elasticbeanstalk.com)
 
 ### Web App
 * Simple Form to query the model
