@@ -2,20 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4ec122e-8702-4a02-8883-c008aad8c919" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/boston.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/boston.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Remarks.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerrun.aws.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/App/model.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/webapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/webapp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/webapp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/data_description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/sample_submission.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/train.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,7 +64,10 @@
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.webapp">
+  <component name="RunManager" selected="Python.app">
+    <configuration name="predict.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Boston/App/templates/predict.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="boston" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,10 +90,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="boston" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/App" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/App/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="boston" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -86,28 +131,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="webapp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="boston" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/App" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/App/webapp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.webapp" />
+        <item itemvalue="Python.app" />
+        <item itemvalue="JavaScript Debug.predict.html" />
         <item itemvalue="Python.model" />
       </list>
     </recent_temporary>
@@ -123,12 +150,26 @@
       <option name="presentableId" value="Default" />
       <updated>1579897042062</updated>
       <workItem from="1579897043972" duration="8372000" />
-      <workItem from="1579962953613" duration="13449000" />
+      <workItem from="1579962953613" duration="24099000" />
+      <workItem from="1580033838642" duration="4198000" />
+      <workItem from="1580039792088" duration="9815000" />
     </task>
+    <task id="LOCAL-00001" summary="Changes in model pipeline and Webapp.">
+      <created>1579977892210</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579977892210</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes in model pipeline and Webapp." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes in model pipeline and Webapp." />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="117" key="#Inspections" timestamp="1579969036806">
@@ -139,38 +180,66 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1579968662150" />
-    <state width="1398" height="248" key="GridCell.Tab.0.bottom" timestamp="1579977474812">
+    <state x="446" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580040062054">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579977474812" />
-    <state width="1398" height="248" key="GridCell.Tab.0.center" timestamp="1579977474810">
+    <state x="446" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1580040062054" />
+    <state x="312" y="55" key="CommitChangelistDialog2" timestamp="1579977891815">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579977474810" />
-    <state width="1398" height="248" key="GridCell.Tab.0.left" timestamp="1579977474809">
+    <state x="312" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579977891815" />
+    <state width="1398" height="335" key="GridCell.Tab.0.bottom" timestamp="1580048640842">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579977474809" />
-    <state width="1398" height="248" key="GridCell.Tab.0.right" timestamp="1579977474811">
+    <state width="1398" height="335" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580048640842" />
+    <state width="1398" height="335" key="GridCell.Tab.0.center" timestamp="1580048640841">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579977474811" />
-    <state width="1398" height="248" key="GridCell.Tab.1.bottom" timestamp="1579977474814">
+    <state width="1398" height="335" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580048640841" />
+    <state width="1398" height="335" key="GridCell.Tab.0.left" timestamp="1580048640840">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579977474814" />
-    <state width="1398" height="248" key="GridCell.Tab.1.center" timestamp="1579977474813">
+    <state width="1398" height="335" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580048640840" />
+    <state width="1398" height="335" key="GridCell.Tab.0.right" timestamp="1580048640841">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1579977474813" />
-    <state width="1398" height="248" key="GridCell.Tab.1.left" timestamp="1579977474813">
+    <state width="1398" height="335" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580048640841" />
+    <state width="1398" height="335" key="GridCell.Tab.1.bottom" timestamp="1580048640844">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1579977474813" />
-    <state width="1398" height="248" key="GridCell.Tab.1.right" timestamp="1579977474814">
+    <state width="1398" height="335" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580048640844" />
+    <state width="1398" height="335" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1580041558619" />
+    <state width="1398" height="335" key="GridCell.Tab.1.center" timestamp="1580048640843">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1579977474814" />
+    <state width="1398" height="335" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1580048640843" />
+    <state width="1398" height="335" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1580041558615" />
+    <state width="1398" height="335" key="GridCell.Tab.1.left" timestamp="1580048640842">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="335" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1580048640842" />
+    <state width="1398" height="335" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1580041558614" />
+    <state width="1398" height="335" key="GridCell.Tab.1.right" timestamp="1580048640843">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="335" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1580048640843" />
+    <state width="1398" height="335" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1580041558616" />
+    <state width="1398" height="335" key="GridCell.Tab.2.bottom" timestamp="1580048640846">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="335" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580048640846" />
+    <state width="1398" height="335" key="GridCell.Tab.2.center" timestamp="1580048640845">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="335" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1580048640845" />
+    <state width="1398" height="335" key="GridCell.Tab.2.left" timestamp="1580048640844">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="335" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1580048640844" />
+    <state width="1398" height="335" key="GridCell.Tab.2.right" timestamp="1580048640845">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="335" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1580048640845" />
     <state x="227" y="80" key="SettingsEditor" timestamp="1579963125280">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -186,13 +255,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -203,8 +265,9 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Boston$model.coverage" NAME="model Coverage Results" MODIFIED="1579974764758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Boston$model.coverage" NAME="model Coverage Results" MODIFIED="1580029990514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/boston$model.coverage" NAME="model Coverage Results" MODIFIED="1579902863103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Boston$webapp.coverage" NAME="webapp Coverage Results" MODIFIED="1579977159816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/App" />
+    <SUITE FILE_PATH="coverage/Boston$webapp.coverage" NAME="webapp Coverage Results" MODIFIED="1580035277555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/App" />
+    <SUITE FILE_PATH="coverage/Boston$app.coverage" NAME="app Coverage Results" MODIFIED="1580041551713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/App" />
   </component>
 </project>

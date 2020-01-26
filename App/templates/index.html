@@ -1,0 +1,20 @@
+<title>Boston housing prices prediction</title>
+<h2>Boston housing prices predictionn</h2>
+<form action="/prediction" method="post">
+    <div>
+        <label for="lot_area">Lot area:
+            <input id=lot_area type="number" min="0" name="lot_area"></input>
+        </label>
+    </div>
+    <div>
+    <label for="bldg_type">Building Type:
+        <select id=bldg_type name="BuildingType">
+            <option value="1Fam">One family house</option>
+            <option value="2fmCon">Two family Condor</option>
+            <option value="Duplex">Duplex building</option>
+            <option value="TwnhsE">Townhouse</option>
+        </select>
+    </label>
+    </div>
+    <button type="button" value="predict">Predict</button>
+</form>
