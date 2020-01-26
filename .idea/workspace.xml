@@ -32,6 +32,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1WtJRUwp7N3nixiBjUEvPmkE4Wg" />
   <component name="ProjectViewState">
@@ -235,10 +236,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="446" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1580040062054" />
-    <state x="352" y="60" key="CommitChangelistDialog2" timestamp="1580062379101">
+    <state x="352" y="60" key="CommitChangelistDialog2" timestamp="1580062614194">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="352" y="60" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580062379101" />
+    <state x="352" y="60" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580062614194" />
     <state width="1398" height="287" key="GridCell.Tab.0.bottom" timestamp="1580062526732">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -291,18 +292,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="234" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1580059158730" />
+    <state x="433" y="174" key="MultipleFileMergeDialog" timestamp="1580062666421">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="433" y="174" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1580062666421" />
     <state x="227" y="80" key="SettingsEditor" timestamp="1579963125280">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="227" y="80" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1579963125280" />
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1580062391746">
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1580062618936">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580062391746" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580062618936" />
     <state x="397" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1579962954405">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="397" y="274" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1579962954405" />
+    <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580062658058">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1580062658058" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1579976510055">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
